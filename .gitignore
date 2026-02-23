@@ -1,0 +1,10 @@
+target/
+
+# Rust/Cargo
+**/*.rs.bk
+
+# OS
+.DS_Store
+
+# Wrangler/Cloudflare local cache/build artifacts
+api-gateway-worker/.wrangler/
