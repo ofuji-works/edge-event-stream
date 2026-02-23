@@ -1,0 +1,8 @@
+[tasks.dev]
+dependencies = ["api-gateway-worker"]
+
+[tasks.build]
+dependencies = ["api-gateway-worker"]
+
+[tasks.api-gateway-worker]
+cwd = "./api-gateway-worker"

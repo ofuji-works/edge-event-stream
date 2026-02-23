@@ -1,0 +1,7 @@
+[tasks.dev]
+command = "npx"
+args = ["wrangler", "dev"]
+
+[tasks.build]
+command = "npx"
+args = ["wrangler", "build"]
