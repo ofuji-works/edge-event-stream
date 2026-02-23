@@ -1,0 +1,6 @@
+name = "cloudflare"
+main = "build/worker/shim.mjs"
+compatibility_date = "2026-02-21"
+
+[build]
+command = "cargo install -q \"worker-build@^0.7\" && worker-build --release"

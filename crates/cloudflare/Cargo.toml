@@ -1,0 +1,17 @@
+[package]
+name = "cloudflare"
+version = "0.1.0"
+edition = "2021"
+authors = ["ofuji-works <ofuji.works@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow.workspace = true
+axum.workspace = true
+derive-new.workspace = true
+serde.workspace = true
+tower-service.workspace = true
+worker.workspace = true
+worker-macros.workspace = true

@@ -1,0 +1,10 @@
+[package]
+name = "ingest-worker"
+edition = "2024"
+version = "0.1.0"
+authors = ["ofuji-works <ofuji.works@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]

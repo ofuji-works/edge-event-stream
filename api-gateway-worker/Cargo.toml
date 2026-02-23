@@ -1,0 +1,18 @@
+[package]
+name = "api-gateway-worker"
+version = "0.1.0"
+edition = "2024"
+authors = ["ofuji-works <ofuji.works@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+axum.workspace = true
+anyhow.workspace = true
+derive-new.workspace = true
+serde.workspace = true
+shared.workspace = true
+tower-service.workspace = true
+worker.workspace = true
+worker-macros.workspace = true
